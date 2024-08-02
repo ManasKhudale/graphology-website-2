@@ -22,7 +22,7 @@ const Page = () => {
     <Image src="/phone.png" className="contact-icon" alt="PhoneLogo" width={30} height={30} />
     <a href="tel:+91-8527446662" style={{color:'white',textDecoration:'underline'}}target="_blank"><div className='contact-info-written'> +91-8527446662</div> </a>
     </div>
-    <form className='form-area-input' name="Contact" method="POST" data-netlify="true" onSubmit="submit">
+    <form className='form-area-input' action="https://formspree.io/f/mldrboew" name="Contact" method="POST" data-netlify="true" onSubmit="submit">
     <label className="form-label" for="name" required>Name</label>
     <input className="form-entry" type="text" id="name" name="name" placeholder="Your name.." required />
     <label className="form-label" type="email" id="email" for="email" required>Email</label>
