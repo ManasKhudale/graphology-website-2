@@ -857,7 +857,8 @@ body{
         background-color: rgba(169,169,169,255);
         color: rgba(3,3,3,255);
         height: 125px;
-        width: 100%;
+        max-width: 100%;
+        padding-left: 90px;
         padding-left: 160px;
         display: flex;
         /*justify-content: center;
@@ -871,6 +872,7 @@ body{
         /* margin-left: 20px; */
         width: 100%;
         z-index: 1;
+        
     }
     
     .navbar-light-heading{
@@ -898,7 +900,7 @@ body{
         right: 54%;
         position: relative;
         font-size: 20px;
-        margin-right: 100px;
+        margin-right: 10px;
         
     }
     
