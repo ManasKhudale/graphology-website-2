@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -26,12 +26,13 @@ const page = () => {
     <li className="service-point"><span className="pointer-desc">Unique Perspective</span>: Gain an unconventional yet enlightening view of your personal attributes and behaviors through the lens of handwriting analysis.</li>
     <li className="service-point"><span className="pointer-desc">Trend Analysis</span>: Identify changes or trends in your handwriting over time to track personal growth or shifts in mental state.</li>
     <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfpFSPwLCVZCqK6ISgl97K-l-rttkDLr5YGn2QBRJhIO69IDg/viewform?usp=pp_url&entry.1247869358=Handwriting+Analysis" target="_blank"><button className="book-session">Book a Session</button></Link>
-    <div className="service-left-image">
-    <Image src="/analysis.jpg" className="service-image-1" alt="Service Image" width={200} height={200} />
-     </div>
+    
     </ul>
     </div>
     </div>
+    <div className="service-left-image">
+    <Image src="/analysis.jpg" className="service-image-1" alt="Service Image" width={800} height={800} />
+     </div>
     
     </div>
 
@@ -47,7 +48,7 @@ const page = () => {
     <li className="service-point"><span className="pointer-desc">Unique Perspective</span>: Gain an unconventional yet enlightening view of your personal attributes and behaviors through the lens of handwriting analysis.</li>
     <li className="service-point"><span className="pointer-desc">Trend Analysis</span>: Identify changes or trends in your handwriting over time to track personal growth or shifts in mental state.</li>
     <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfpFSPwLCVZCqK6ISgl97K-l-rttkDLr5YGn2QBRJhIO69IDg/viewform?usp=pp_url&entry.1247869358=Handwriting+Correction+Counselling" target="_blank"><button className="book-session">Book a Session</button></Link>
-        <div className="service-right-image"> <Image src="/correction.jpg" className="service-image-2" alt="Service Image" width={200} height={200} /> </div>
+        
 
     </ul>
     
@@ -55,7 +56,7 @@ const page = () => {
     
     
     </div>
-    
+    <div className="service-right-image"> <Image src="/correction.jpg" className="service-image-2" alt="Service Image" width={200} height={200} /> </div>
     </div>
     
 
@@ -73,13 +74,16 @@ const page = () => {
     <li className="service-point"><span className="pointer-desc">Career Versatility</span>: Open doors to various career paths, from becoming a professional graphologist to integrating handwriting analysis into coaching, counseling, or HR roles.</li>
     <li className="service-point"><span className="pointer-desc">Personal Growth</span>: Apply graphology techniques for self-improvement and to gain insights into your personal growth areas, enhancing your self-awareness and interpersonal relationships.</li>
     <Link href="https://forms.gle/gq2wxS42tcdravG29" target="_blank"><button className="book-session-2" >Fill This Form</button></Link>
+    
+    </ul>
+    
+    
+    </div>
+    
+    </div>
     <div className="service-left-image">
     <Image src="/learn.jpg" className="service-image-1" alt="Service Image" width={200} height={200} />
      </div>
-    </ul>
-    
-    </div>
-    </div>
     
     </div>
     

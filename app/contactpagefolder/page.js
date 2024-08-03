@@ -12,7 +12,6 @@ const Page = () => {
     <div className="contact-section-page">
     
     <div className="contact-form-right"> 
-    <form data-netlify="true">
     <div className="form-group">
     <div className="contact-title">Contact Us</div>
     <div className="contact-subtitle">Explore the world of graphology with us. Feel free to reach out.</div>
@@ -29,15 +28,15 @@ const Page = () => {
     <input className="form-entry" type="text" id="email" name="email" placeholder="Your email.." required />
     <label className="form-label" for="subject" required>Message</label>
     <textarea className="form-entry"id="subject" name="subject" placeholder="How can we assist you?" required ></textarea>
-    <input type="submit" className='form-submit' value="Send Message"  />
-    </form>
-    </div>
+    <input type="submit" className='form-submit' onclick="event.preventDefault(); document.getElementById('form-response').textContent = 'Form has been submitted!';" value="Send Message"  />
     </form>
     </div>
     </div>
     <div className="contact-left">
     <Image src="/contactperson.png" className="contact-image" alt="Contact Image" width={258.67} height={229.34} />
     </div>
+    </div>
+    
     <Footer />
     </>
   )
