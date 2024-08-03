@@ -972,4 +972,9 @@ body{
         display: flex;
         flex-direction: row-reverse;
     }
+
+    .photo-right .photo{
+        width: 470px;
+        height: 400px;
+    }
   }
