@@ -78,7 +78,7 @@ export default function Home() {
       <div className="reviewer-pic">
       <Image src="/reviewer1.png" className="reviewer-pic" alt="Reviewer Pic" width={40} height={40} />
       </div>
-      <div className="reviewer-name">Mansi Khudale</div> 
+      <div className="reviewer-name">Mansi</div> 
       </div>
       </div>
 
@@ -93,7 +93,7 @@ export default function Home() {
       <div className="reviewer-pic">
       <Image src="/reviewer2.png" className="reviewer-pic" alt="Reviewer Pic" width={40} height={40} />
       </div>
-      <div className="reviewer-name">Samrat Khudale</div> 
+      <div className="reviewer-name">Samrat</div> 
       </div>
       </div>
 
@@ -109,7 +109,7 @@ export default function Home() {
       <div className="reviewer-pic">
         <Image src="/reviewer3.png" className="reviewer-pic" alt="Reviewer Pic" width={40} height={40} />
       </div>
-      <div className="reviewer-name">Swati Arora</div> 
+      <div className="reviewer-name">Swati</div> 
       </div>
       </div>
 
@@ -124,7 +124,7 @@ export default function Home() {
       <div className="reviewer-pic">
       <Image src="/reviewer4.png" className="reviewer-pic" alt="Reviewer Pic" width={40} height={40} />
       </div>
-      <div className="reviewer-name">Sandeep Arora</div> 
+      <div className="reviewer-name">Sandeep</div> 
       </div>
       </div>
       </div>
