@@ -14,13 +14,22 @@ const NavbarLight = () => {
         <Link href="/contactpagefolder"><button className='navbar-light-contact'>Contact</button> </Link>
         </div>
         <div className='navbar-all-comps'>
-        <Link href='/' className='navbar-light-comps' style={{color: 'rgba(3,3,3,255)', textDecoration: 'none'}}><div > Home </div></Link>
+        <Link href='/' className='navbar-light-comps' style={{color: 'rgba(3,3,3,255)', textDecoration: 'none',marginLeft:'20px'}} ><div onMouseEnter={e => e.target.style.color = 'purple'}
+  onMouseLeave={e => e.target.style.color = 'rgba(3,3,3,255)'}> Home </div></Link>
         
-        <div className='navbar-light-comps'> <Link href='/blogspagefolder' style={{color: 'rgba(3,3,3,255)', textDecoration: 'none'}}>Blogs </Link> </div>
+        <div className='navbar-light-comps'> <Link href='/blogspagefolder' style={{color: 'rgba(3,3,3,255)', textDecoration: 'none',marginLeft:'20px'}}  onMouseEnter={e => e.target.style.color = 'purple'}
+  onMouseLeave={e => e.target.style.color = 'rgba(3,3,3,255)'}>Blogs </Link> </div>
         <div className='dropdown'>
-        <Link href='/servicespagefolder' className='navbar-light-comps' style={{color: 'rgba(3,3,3,255)', textDecoration: 'none'}}><div > Services </div></Link>
+        <Link href='/servicespagefolder' className='navbar-light-comps' style={{color: 'rgba(3,3,3,255)', textDecoration: 'none',marginLeft:'20px'}} ><div onMouseEnter={e => e.target.style.color = 'purple'}
+  onMouseLeave={e => e.target.style.color = 'rgba(3,3,3,255)'} > Services </div></Link>
+      <div className='dropdown-content'>
+        <Link href='/servicespagefolder/#service-1' style={{color: 'rgba(3,3,3,255)', textDecoration: 'none'}}><div>Handwriting Analysis</div></Link>
+        <Link href='/servicespagefolder/#service-2' style={{color: 'rgba(3,3,3,255)', textDecoration: 'none'}}><div>Handwriting Correction Counselling</div></Link>
+        <Link href='/servicespagefolder/#service-3' style={{color: 'rgba(3,3,3,255)', textDecoration: 'none'}}><div>Learn and earn with Graphology</div></Link>
         </div>
-        <Link href="/aboutpagefolder"><div className='navbar-light-comps'  style={{color: 'rgba(3,3,3,255)', textDecoration: 'none'}}> About</div></Link>
+        </div>
+        <Link href="/aboutpagefolder"><div className='navbar-light-comps'  style={{color: 'rgba(3,3,3,255)', textDecoration: 'none',marginLeft:'20px'}}  onMouseEnter={e => e.target.style.color = 'purple'}
+  onMouseLeave={e => e.target.style.color = 'rgba(3,3,3,255)'}> About</div></Link>
         </div>
         </div>
     </>

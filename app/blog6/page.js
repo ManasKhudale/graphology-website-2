@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import NavbarLight from '../NavbarLight'
 import '../main.css'

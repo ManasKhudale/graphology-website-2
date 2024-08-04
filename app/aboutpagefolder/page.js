@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import NavbarDark from '../NavbarDark'
 import Image from 'next/image'
