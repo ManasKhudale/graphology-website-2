@@ -981,7 +981,7 @@ body{
     }
   }
 
-@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+@media only screen and (min-width: 1180px) and (max-width: 1440px) {
     
     .navbar-light{  
         background-color: rgba(169,169,169,255);
@@ -1053,5 +1053,27 @@ body{
         height: 685px;
     }
 
+    .gallery-heading{
+        font-size: 41px;
+        font-weight: bold;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 
+    .gallery-image{
+        display: flex;
+        left: 8%;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        width: 900px;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 50px;
+        padding-bottom: 60px;
+    }
+    
 }
