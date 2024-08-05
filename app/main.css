@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     /* padding: 0; */
     margin: 0;
@@ -275,6 +279,12 @@ body{
     margin-top: 30px;
     /* max-height: 270px; */
     flex: 1;
+    transition: 0.2s ease;
+}
+
+.blog-post:hover{
+    background-color: rgb(84, 83, 83);
+    scale: 1.05;
 }
 
 .service-1{
@@ -304,6 +314,12 @@ body{
     padding: 10px 15px;
     margin-top: 15px;
     margin-bottom: 15px;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+
+.book-session:hover{
+    background-color: rgba(160, 47, 247, 0.995);
 }
 
 .service-image-1{
@@ -350,6 +366,12 @@ body{
     padding: 10px 15px;
     margin-top: 15px;
     margin-bottom: 15px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.book-session-2:hover{
+    background-color: rgba(160, 47, 247, 0.995);
 }
 
 .service-2{
@@ -553,10 +575,19 @@ body{
     max-width: 800px;
     max-height: 800px;
     padding-bottom: 20px;
+    transition: 0.3s ;
+}
+
+.service-left-image:hover{
+    scale: 1.07;
 }
 .service-right-image{
     padding-bottom: 20px;
     padding-left: 30px;
+    transition: 0.3s ;
+}
+.service-right-image:hover{
+    scale: 1.07;
 }
 
 .dropdown{
@@ -649,6 +680,11 @@ body{
         border-radius: 3px;
         padding: 12px 30px;
         cursor: pointer;
+        transition: 0.2s ease;
+    }
+
+    .read-now-button:hover{
+        background-color: rgba(160, 47, 247, 0.995);
     }
 
     .landing-subtitle{
@@ -985,6 +1021,7 @@ body{
 
     .dropdown{
         position: relative;
+        display:flex;
         /* margin-left: 30px; */
         /* margin-top: 20px; */
         /* display: inline-block; */
@@ -1010,21 +1047,46 @@ body{
         padding: 12px 16px;
         text-decoration: none;
         display: block;
-        display: flex;
-    flex-direction: column;
       }
+
+    .drop-button{
+        background-color: rgba(169,169,169,255);
+        color: black;
+        cursor: pointer;
+        border: black 1px solid;
+        font-size:18px;
+        border-radius: 5px;
+        /* padding: 10px 15px; */
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
       
-      .dropdown-content a:hover {background-color: #ddd;
+      
+/*       
+      .dropdown:focus-within .dropdown-content {
+        margin-top: 60px;
         display: flex;
-        flex-direction: column;}
-      
-      .dropdown:hover .dropdown-content {display: flex;
-        flex-direction: column;}
+        flex-direction: column;
+    } */
 
-        .dropdown-content:active {
+    .dropdown:hover .dropdown-content {
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    
+
+
+        /* .dropdown-content:active {
             display: hidden;
-          }
+          } */
 
+          /* Animate hover */
+       .dropdown-content a:hover {background-color: #ddd;
+        display: flex;
+        flex-direction: column;} 
       
     .service-1{
         background-color: rgba(22,22,22,255);
