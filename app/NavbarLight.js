@@ -26,6 +26,7 @@ const NavbarLight = () => {
         <Link href='/servicespagefolder/#service-1' style={{color: 'rgba(3,3,3,255)', textDecoration: 'none'}}><div>Handwriting Analysis</div></Link>
         <Link href='/servicespagefolder/#service-2' style={{color: 'rgba(3,3,3,255)', textDecoration: 'none'}}><div>Handwriting Correction Counselling</div></Link>
         <Link href='/servicespagefolder/#service-3' style={{color: 'rgba(3,3,3,255)', textDecoration: 'none'}}><div>Learn and earn with Graphology</div></Link>
+        <Link href='/servicespagefolder/#faq' style={{color: 'rgba(3,3,3,255)', textDecoration: 'none'}}><div>FAQ&apos;s</div></Link>
         </div>
         </div>
         <Link href="/aboutpagefolder"><div className='navbar-light-comps'  style={{color: 'rgba(3,3,3,255)', textDecoration: 'none',marginLeft:'20px'}}  onMouseEnter={e => e.target.style.color = 'purple'}

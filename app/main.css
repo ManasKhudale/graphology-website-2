@@ -588,6 +588,28 @@ body{
     flex-direction: column;
   }
   
+  .faq-section{
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+
+  .faq-title{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom:25px;
+  }
+
+    .faq-question{
+        font-weight: bold;
+        font-size: 18px;
+        padding-bottom: 9px;
+    }
+
+    .faq-answer{
+        padding-bottom: 25px;
+    }
+
 
 @media (min-width: 1024px) {
     .landing-content{
