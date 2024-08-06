@@ -764,14 +764,14 @@ body{
 
     .gallery-image{
         display: flex;
-        left: 14%;
+        /* left: 14%; */
         align-items: center;
         justify-content: center;
         object-fit: cover;
-        width: 900px;
+        width: 600px;
         height: auto;
         margin-top: 50px;
-        margin-left: 50px;
+        margin-left: 30px;
         padding-bottom: 60px;
     }
 
@@ -1244,14 +1244,14 @@ body{
 
     .gallery-image{
         display: flex;
-        left: 8%;
+        /* left: 8%; */
         align-items: center;
         justify-content: center;
         object-fit: cover;
-        width: 900px;
+        width: 500px;
         height: auto;
         margin-top: 50px;
-        margin-left: 50px;
+        margin-left: 30px;
         padding-bottom: 60px;
     }
     

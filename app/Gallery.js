@@ -21,7 +21,15 @@ const Gallery = () => {
       modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
       spaceBetween={1.3}
       speed={1200}
-      slidesPerView={1}
+      breakpoints={{
+        320: {
+              slidesPerView: 1,
+            },
+            1024: {
+              slidesPerView: 2, 
+            },
+            
+      }}
       loop='true'
       autoplay={{
                     delay: 3000,
