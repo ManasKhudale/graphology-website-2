@@ -21,8 +21,8 @@ export default function RootLayout({ children }) {
     </head>
     
       <body>{children}
-      <script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
-<script src="https://mediafiles.botpress.cloud/56198fdd-4967-4bfd-93ac-f096e4b76ca8/webchat/v2/config.js"></script>
+      <script async src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
+<script  async src="https://mediafiles.botpress.cloud/56198fdd-4967-4bfd-93ac-f096e4b76ca8/webchat/v2/config.js"></script>
 </body>
     </html>
   );
