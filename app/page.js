@@ -29,7 +29,7 @@ export default function Home() {
       <div className="left-content">
       <div className="landing-title">Uncover the secrets hidden</div><br />
       <div className="landing-subtitle">Explore the fascinating world of graphology. Get to know more about yourselves, and dive deep into the world of magic of handwriting.</div>
-      <Link href="/knowmorefolder"><button className="read-now-button">Know more</button></Link>
+      <Link href="/KnowMore"><button className="read-now-button">Know more</button></Link>
       </div>
       <div className="right-content">
       <Image src="/landingimage.png" className="landing-image" alt="Landing Image" width={300} height={197.5} />

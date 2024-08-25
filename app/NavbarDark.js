@@ -1,7 +1,7 @@
 import React from 'react';
 import './main.css';
 import Link from 'next/link';
-import Page from './contactpagefolder/page';
+import Page from './Contact/page';
 
 const NavbarLight = () => {
   return (
